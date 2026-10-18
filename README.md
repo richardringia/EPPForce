@@ -90,3 +90,7 @@ which of the two fixed it.
 This writes model-specific registers from the kernel on every CPU. It is tested on one machine only.
 A different CPU, or a macOS that manages EPP itself, may behave differently. The kext uses the
 private symbol `mp_rendezvous_no_intrs` (`com.apple.kpi.unsupported`).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
